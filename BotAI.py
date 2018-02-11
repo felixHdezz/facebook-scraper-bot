@@ -9,28 +9,11 @@ posts_=[]
 
 
 selfProfile = "https://mbasic.facebook.com/profile.php?fref=pb"
-grups = ["https://mbasic.facebook.com/groups/830198010427436",
-         "https://m.facebook.com/groups/1660869834170435",
-         "https://m.facebook.com/groups/100892180263901",
-         "https://m.facebook.com/groups/1649744398596548",
-         "https://m.facebook.com/groups/421300388054652",
-         "https://m.facebook.com/groups/675838025866331",
-         "https://m.facebook.com/groups/1433809846928404",
-         "https://m.facebook.com/groups/1625415104400173",
-         "https://m.facebook.com/groups/424478411092230",
-         "https://m.facebook.com/groups/1056447484369528",
-         "https://m.facebook.com/groups/1433809846928404",
-         "https://m.facebook.com/groups/421300388054652",
-         "https://m.facebook.com/groups/1649744398596548",
-         "https://m.facebook.com/groups/751450114953723",
-         "https://m.facebook.com/groups/943175872420249"
+grups = ["https://mbasic.facebook.com/groups/830198010427436"
 ]
 
 postsList = list()
 peopleList = list()
-saluteText = "Buenos días usuarios, gracias por activar su unidad moderadora 3000\n" \
-             "\nPara información sobre su uso presione la tecla F1, para ayuda presione F2 \n" \
-             "Para otras instrucciones remitase al manual de usuario adjunto en el CD instalador"
 
 def getPost():
     global postsList
@@ -87,8 +70,7 @@ def spam_group():
 
 if __name__ == "__main__":
     bot = FacebookBot()
-    bot.login("felix.hernandez.uthh@gmail.com", "desa01fhh")
-    #bot.save_screenshot("debug.jpg")
+    bot.login("felix.hernandez.uthh@gmail.com", "")
     while True:
         try:
             saluteAll()
