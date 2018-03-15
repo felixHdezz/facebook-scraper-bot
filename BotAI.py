@@ -70,7 +70,7 @@ def spam_group():
 
 if __name__ == "__main__":
     bot = FacebookBot()
-    bot.login("felix.hernandez.uthh@gmail.com", "")
+    bot.login("felix.hernandez.uthh@gmail.com", "*******")
     while True:
         try:
             saluteAll()
